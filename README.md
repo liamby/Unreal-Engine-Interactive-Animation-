@@ -1,18 +1,25 @@
-# Unreal-Engine-Interactive-Animation-
-Short interactive animation of a pirate escaping a volcano. Created to help learn Unreal Engine. Video is available at https://www.youtube.com/watch?v=WM5l9ctl_Ys
+# CS7GV5 Animation Report
+This is an interactive experience using Unreal Engine and Mixamo.
 
-### Volcano
+## Features
+The project has the following features:
 
-![Volcano GIF](volcano.gif)
+**Articulated Animated Character**: A pirate character with different animations such as running, jumping, and partying. The animations are from Mixamo and are blended and controlled by motion state machines and motion editing.
 
-### Running
+**Interactive Element**: The user can control the pirate and choose between two options: escape on the boat or stay with the gold. The choice triggers different cutscenes using blueprints and trigger actors.
 
-![Running GIF](running.gif)
+**Principles of Animation**: The project applies the principles of animation such as anticipation, squash and stretch, ease in, ease out, exaggeration, and staging. The principles are implemented by keyframed motion, transform curves, and animation settings.
 
-### Panning
+**Stylised Characters, Environment, Animations and Music**: The project has a low-poly pirate treasure island theme for the characters, environment, animations, and music. The project also uses smoke animation, lighting effects, and cheerful audio to match the theme.
 
-![Panning GIF](panning.gif)
+**User Control of the Main Character and Tracking Camera**: The user can pilot the character using the keyboard and mouse and control the orbit of the camera around the character.
 
-### Boat
+## Demo
+You can watch a demo video of the project on YouTube: https://youtu.be/WM5l9ctl_Ys
 
-![Boat GIF](boat.gif)
+<p float="left">
+  <img src="volcano.gif" width="400" />
+  <img src="running.gif" width="400" />
+  <img src="panning.gif" width="400" />
+  <img src="boat.gif" width="400" />
+</p>
